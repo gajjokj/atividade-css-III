@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Eventos - IFSP - Pirituba</title>
   <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon"> <!-- Adiciona o ícone de aba de navegador-->
+  <link rel="stylesheet" href="css/formularios.css">
   <script src="js/disabling.js"></script>
 </head>
 
@@ -12,10 +13,8 @@
 
   <header id="cabecalho"> <!-- Indica o cabeçalho do nosso documento-->
     <nav>
-      <object width="100%" height="65px" data="menu.html"></object>
-    </nav>
-
-    <img src="https://github.com/pwe-redes/pwe_imagens/blob/master/Logo.jpg?raw=true" alt=" " /> <!-- anexa imagem e texto alternativo-->
+      <object width="100%" height="200px" data="menu.html"></object>
+    </nav>    
 
   </header>
 
@@ -66,8 +65,8 @@
           <input type="email" name="email" id="inscrever-email" required />
         </p>
         <p>
-          <label for="inscrever-celular">Celular</label>
-          <input type="tel" name="celular" id="inscrever-celular" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$"/> <span>(99) 99999-9999</span>
+          <label for="inscrever-celular">Celular (99) 99999-9999</label>
+          <input type="tel" name="celular" id="inscrever-celular" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$"/> 
         </p>
 
         <fieldset>
@@ -95,9 +94,9 @@
         </p>
       </fieldset>
 
-      <p>
-        <button type="submit">Inscrever</button>
-        <button type="reset">Limpar</button>
+      <p>        
+        <input type="submit" value="Inscrever-se">
+        <input type="reset" value="Limpar">
       </p>
 
     </form>
